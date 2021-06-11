@@ -20,7 +20,7 @@ Se utilizo el lenguaje de etiquetas HTML5 y el lenguaje de diseño grafico CSS3.
 ##### Prerrequisitos
 - Instalar NodeJS descargándolo desde la pagina oficial. https://nodejs.org/es/download/
 - Instalar Angular CLI en su version 9.1.3 .
-`npm install -g @angular/cli@6.1.1
+`npm install -g @angular/cli@6.1.1`
 - Tener instalado MySQL Workbench como software para manipular scripts SQL y Esquemas.
 - Tener una conexión local mysql con hostname:127.0.0.1, port 3306, username root, password: password y Connection Method: Standard(TCP/IP).
 [MySQL Connection](https://ibb.co/L8QHTn7 "MySQL Connection")
@@ -28,7 +28,7 @@ Se utilizo el lenguaje de etiquetas HTML5 y el lenguaje de diseño grafico CSS3.
 ##### Instalación
 1. Clonar el repositorio. 
 2. Abrir y ejecutar (en MySQL Workbench) el archivo DBFlotillaCarros.sql ubicado en la carpeta FlotillaCarrosBackend dentro de la carpeta‘database’.
-3. En la directorio de la carpeta FlotillaCarrosBackend .
+3. En la directorio de la carpeta FlotillaCarrosBackend ejecutar los comandos(Esto si la carpeta node_modules no es descargada) .
 `npm install express`
 `npm install nodemon`
 `npm install body-parser`
